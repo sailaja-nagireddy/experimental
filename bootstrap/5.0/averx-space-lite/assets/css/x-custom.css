@@ -1,0 +1,153 @@
+#x-home {
+  height: 100vh;
+  background-image: url('../img/x-custom/chimney.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat
+}
+
+#x-feature {
+  height: 100vh;
+  background-image: url('../img/x-custom/veterinarian.webp');
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  image-rendering: auto
+}
+
+#x-happy {
+  height: 100vh;
+  background-image: url('../img/x-custom/happy.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: auto
+}
+
+#x-about {
+  height: 100vh;
+  background-image: url('../img/x-custom/spoon4.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: auto
+}
+
+.bulk-drug-image {
+  position: absolute;
+  overflow: hidden;
+  top: 20%;
+  left: 10%;
+  width: 22%;
+  height: 60%;
+  background-color: #000;
+  display: block;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  border-radius: 8px;
+  background-image: url(../img/x-custom/spoon4.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.bulk-drug img {
+  position: relative;
+  right: 100px;
+  bottom: 50px;
+  width: 150%
+}
+
+.values-image {
+  position: absolute;
+  overflow: hidden;
+  top: 18%;
+  right: 8%;
+  width: 30%;
+  height: 65%;
+  background-color: #000;
+  display: block;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  border-radius: 8px;
+  background-image: url(../img/x-custom/gathering.webp);
+  background-size: cover
+}
+
+.easteregg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background:none;
+  background-color:none;
+}
+
+.easteregg .main-content {
+  width: 100%;
+  height: 100%;
+  background:none;
+  background-color:none;
+}
+
+.easteregg .main-content img {
+  width: 150%
+}
+
+.easteregg .overlay-content {
+  width: 100%;
+  height: 100%;
+  background-color: #ffeac9;
+  color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  transition: .6s;
+  top: 0;
+  left: 100%;
+  opacity: .8
+}
+
+.easteregg:hover .overlay-content {
+  transform: translateX(-100%)
+}
+
+.easteregg .overlay-content p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.75rem
+}
+
+.easteregg .overlay-content p span {
+  display: block;
+  letter-spacing: normal;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1.25rem
+}
+
+@media (max-width:576px) {
+  .easteregg {
+    width: 300px;
+    height: 450px
+  }
+}
+
+.easteregg .pro {
+  width: 100%;
+  height: 100%;
+  background-color: #3ebdb7;
+  color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  transition: 1.3s;
+  top: 0;
+  left: 100%;
+  opacity: .8
+}
